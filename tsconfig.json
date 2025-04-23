@@ -3,10 +3,12 @@
   "compilerOptions": {
     "strict": true,
     "jsx": "react-jsx",
-
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
     "paths": {
       "~/*": ["src/*"]
     }
-  }
+  },
+  "include": ["src", "components", "roslib.d.ts"]
 }
