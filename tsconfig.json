@@ -7,8 +7,15 @@
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
     "paths": {
-      "~/*": ["src/*"]
+      "~/*": [
+        "src/*"
+      ]
     }
   },
-  "include": ["src", "components", "roslib.d.ts"]
+  "include": [
+    "components",
+    "App.tsx",
+    "roslib.d.ts",
+    "nativewind-env.d.ts"
+  ]
 }
